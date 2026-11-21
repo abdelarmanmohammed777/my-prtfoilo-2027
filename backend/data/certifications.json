@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Data Analytics Essentials",
+    "issuer": "Cisco Networking Academy",
+    "date": "Nov 2026",
+    "file": "docs/Cisco_Data_Analytics_Essentials.pdf",
+    "icon": "chart"
+  },
+  {
+    "title": "Data Science Essentials with Python",
+    "issuer": "Cisco Networking Academy",
+    "date": "Nov 2026",
+    "file": "docs/Cisco_Data_Science_Essentials_Python.pdf",
+    "logo": "python",
+    "icon": "chart"
+  },
+  {
+    "title": "Introduction to Modern AI",
+    "issuer": "Cisco Networking Academy",
+    "date": "Nov 2026",
+    "file": "docs/Cisco_Introduction_to_Modern_AI.pdf",
+    "icon": "ai"
+  },
+  {
+    "title": "Web Development Fundamentals",
+    "issuer": "IBM SkillsBuild",
+    "date": "Jun 2026",
+    "file": "docs/IBMDesign20260602-31-ehslqv.pdf",
+    "verify": "https://www.credly.com/badges/79191fcd-fa0d-4810-92d5-227f2e001bf8",
+    "logo": "html5",
+    "icon": "code"
+  },
+  {
+    "title": "Data Fundamentals",
+    "issuer": "IBM SkillsBuild",
+    "date": "Jun 2026",
+    "file": "docs/IBMDesign20260611-32-vo2xb7.pdf",
+    "verify": "https://www.credly.com/badges/c04b4dd9-8d0d-4e57-a302-b346bccbcb73",
+    "icon": "database"
+  },
+  {
+    "title": "Explore Emerging Tech",
+    "issuer": "IBM SkillsBuild",
+    "date": "Jun 2026",
+    "file": "docs/ExploreEmergingTech_Badge20260614-29-baenp0.pdf",
+    "verify": "https://www.credly.com/go/waJ8e7KN",
+    "icon": "chip"
+  },
+  {
+    "title": "Python Programming Basics",
+    "issuer": "ITI Mahara-Tech (AI Academy)",
+    "date": "Sep 2026",
+    "file": "docs/Course_Certificate_En.pdf",
+    "logo": "python",
+    "icon": "code"
+  },
+  {
+    "title": "Learn HTML & CSS",
+    "issuer": "ITI Mahara-Tech Platform",
+    "date": "Jan 2026",
+    "file": "docs/Course_Certificate_En (1).pdf",
+    "logo": "html5",
+    "icon": "code"
+  },
+  {
+    "title": "Information Technology",
+    "issuer": "WE Applied Technology School",
+    "date": "2024 – 2026",
+    "icon": "monitor"
+  }
+]

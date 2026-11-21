@@ -1,0 +1,10 @@
+{
+  "name": "abdelrahman-portfolio",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "npm run build && node backend/server.js",
+    "build": "cd frontend && node build.mjs"
+  },
+  "devDependencies": { "esbuild": "^0.25.0", "react": "^19.0.0", "react-dom": "^19.0.0" }
+}

@@ -1,0 +1,17 @@
+/* ==========================================================================
+   8. PROJECTS — filter tabs + project cards
+   ========================================================================== */
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+.tabs button {
+  padding: 8px 16px; border-radius: 99px; border: 1px solid var(--line); background: transparent;
+  color: var(--muted); font: 13px var(--font-mono); cursor: pointer; transition: .25s var(--ease);
+}
+.tabs button:hover { color: var(--text); border-color: var(--line-strong); }
+.tabs button.on { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+
+.proj { display: flex; flex-direction: column; gap: 10px; height: 100%; padding: 30px; transition: transform .35s var(--ease), border-color .3s, box-shadow .35s; }
+.proj:hover { border-color: var(--accent-line); box-shadow: 0 24px 50px -28px rgba(34, 211, 238, .35); }
+.proj h3 { font-size: 24px; letter-spacing: -.01em; }
+.proj p { color: var(--muted); }
+.proj .chips { margin: 6px 0 12px; }
+.proj .btn { align-self: flex-start; margin-top: auto; }

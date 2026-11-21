@@ -1,0 +1,41 @@
+/* ==========================================================================
+   3. NAVIGATION — progress bar, floating pill, back-to-top
+   ========================================================================== */
+#bar { position: fixed; top: 0; left: 0; height: 2px; z-index: 99; background: var(--accent); box-shadow: 0 0 10px var(--accent); }
+
+nav {
+  position: fixed; top: 16px; left: 50%; transform: translateX(-50%); z-index: 90;
+  display: flex; align-items: center; gap: 10px; padding: 8px 10px;
+  width: max-content; max-width: calc(100vw - 28px);
+  background: var(--nav-bg); border: 1px solid var(--nav-line); border-radius: 99px;
+  backdrop-filter: blur(22px); box-shadow: 0 14px 40px rgba(2, 6, 23, .25);
+}
+.brand { padding: 8px 12px; font-size: 15px; font-weight: 600; letter-spacing: .04em; color: #f8fafc; }
+.brand span { color: #67e8f9; }
+.nav-links { display: flex; align-items: center; gap: 2px; }
+.nav-links a { padding: 9px 13px; border-radius: 99px; font-size: 13px; font-weight: 600; color: #aab6c8; transition: .25s; white-space: nowrap; }
+.nav-links a:hover { color: #fff; background: rgba(255, 255, 255, .07); }
+.nav-links a.on { color: #07111e; background: #67e8f9; }
+.ib {
+  padding: 8px 12px; border: 1px solid rgba(255, 255, 255, .16); border-radius: 8px; background: none;
+  color: #cbd5e1; font: 600 12px var(--font-mono); cursor: pointer; transition: .25s;
+}
+.ib:hover { color: #fff; background: rgba(255, 255, 255, .1); }
+
+.totop {
+  position: fixed; right: 20px; bottom: 20px; z-index: 80; width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--accent);
+  font-size: 18px; cursor: pointer; opacity: 0; pointer-events: none; transition: .3s;
+}
+.totop.show { opacity: 1; pointer-events: auto; }
+.totop:hover { border-color: var(--accent); transform: translateY(-3px); }
+
+@media (max-width: 760px) {
+  nav { top: 8px; gap: 4px; padding: 6px; max-width: calc(100vw - 16px); }
+  .brand { padding: 7px 8px; }
+  .nav-links { overflow-x: auto; max-width: calc(100vw - 150px); scrollbar-width: none; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { padding: 8px 10px; font-size: 12px; }
+  .ib { padding: 7px 9px; }
+  .command-btn { display: none; }
+}

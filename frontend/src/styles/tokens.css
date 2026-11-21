@@ -1,0 +1,69 @@
+/* ==========================================================================
+   1. DESIGN TOKENS — every colour, radius and easing lives here.
+   Change a value once and the whole site follows.
+   ========================================================================== */
+:root {
+  /* surfaces */
+  --bg: #070b14;
+  --surface: #0d1422;
+  --surface-2: #131c2e;
+  --line: rgba(148, 163, 184, .16);
+  --line-strong: rgba(148, 163, 184, .32);
+
+  /* text */
+  --text: #e8edf5;
+  --muted: #8c99ad;
+
+  /* brand accent (one colour, used consistently) */
+  --accent: #67e8f9;
+  --accent-strong: #22d3ee;
+  --accent-ink: #04202a;
+  --accent-soft: rgba(103, 232, 249, .1);
+  --accent-line: rgba(103, 232, 249, .38);
+
+  /* navigation pill (stays dark in both themes) */
+  --nav-bg: rgba(12, 18, 32, .92);
+  --nav-line: rgba(148, 163, 184, .22);
+
+  /* code colours */
+  --code-key: #67e8f9;
+  --code-str: #a7f3d0;
+  --code-num: #fcd34d;
+  --code-kw: #c4b5fd;
+
+  /* shape + motion */
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 18px 50px -24px rgba(0, 0, 0, .8);
+  --ease: cubic-bezier(.16, 1, .3, 1);
+
+  /* type */
+  --font-sans: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* legacy aliases (kept so older inline styles never break) */
+  --g: var(--accent);
+  --m: var(--muted);
+  --t: var(--text);
+  --bd: var(--line);
+}
+
+:root[data-theme="light"] {
+  --bg: #f4f6fa;
+  --surface: #ffffff;
+  --surface-2: #eef2f7;
+  --line: rgba(15, 23, 42, .1);
+  --line-strong: rgba(15, 23, 42, .2);
+  --text: #0f172a;
+  --muted: #55657d;
+  --accent: #0e7490;
+  --accent-strong: #0891b2;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(8, 145, 178, .08);
+  --accent-line: rgba(8, 145, 178, .4);
+  --shadow: 0 18px 44px -26px rgba(15, 23, 42, .35);
+  --code-key: #0e7490;
+  --code-str: #047857;
+  --code-num: #b45309;
+  --code-kw: #6d28d9;
+}

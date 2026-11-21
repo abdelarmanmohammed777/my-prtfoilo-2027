@@ -1,0 +1,50 @@
+/* ==========================================================================
+   7. TECH STACK — category cards, logo tiles, marquee
+   ========================================================================== */
+.stk .grp { height: 100%; padding: 26px; transition: transform .35s var(--ease), border-color .3s; }
+.stk .grp:hover { border-color: var(--accent-line); }
+.grp-num { display: block; margin-bottom: 14px; font-size: 13px; letter-spacing: .12em; color: var(--accent); }
+.grp h3 { font-size: 20px; margin-bottom: 4px; }
+.grp p { font-size: 14px; color: var(--muted); }
+
+.logos { display: grid; grid-template-columns: repeat(auto-fill, minmax(58px, 1fr)); gap: 16px 6px; margin-top: 20px; }
+.lg { text-align: center; }
+.lg small { display: block; margin-top: 8px; font-size: 11.5px; line-height: 1.2; color: var(--muted); transition: color .25s; }
+@property --ang { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+.lg { position: relative; transition: opacity .3s, filter .3s; }
+/* spinning brand-coloured ring that appears behind the tile on hover */
+.lg::before {
+  content: ""; position: absolute; top: -4px; left: 50%; width: 58px; height: 58px; margin-left: -29px; border-radius: 18px; opacity: 0; z-index: 0;
+  background: conic-gradient(from var(--ang), var(--b), transparent 45%, var(--b)); transition: opacity .3s; animation: ring 1.6s linear infinite;
+}
+@keyframes ring { to { --ang: 360deg; } }
+.tile {
+  position: relative; z-index: 1; display: grid; place-items: center; width: 50px; height: 50px; margin: auto; overflow: hidden;
+  border-radius: 14px; background: #f1f5f9; border: 1px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, .55); transition: box-shadow .3s;
+}
+.tile span { font: 700 14px var(--font-mono); color: #334155; }
+.tile img { position: absolute; inset: 7px; width: 36px; height: 36px; object-fit: contain; background: #f1f5f9; }
+.lg:hover::before { opacity: 1; }
+.lg:hover .tile { animation: pop 1s ease-in-out infinite; box-shadow: 0 18px 30px -8px var(--b); }
+.lg:hover small { color: var(--accent); font-weight: 600; transform: translateY(2px); }
+.lg small { transition: color .25s, transform .3s var(--ease); }
+/* focus effect: everything else fades while one logo is hovered */
+.logos:has(.lg:hover) .lg:not(:hover) { opacity: .35; filter: saturate(.4); }
+.stk:has(.lg:hover) .grp:not(:has(.lg:hover)) { opacity: .6; }
+.stk .grp { transition: transform .35s var(--ease), border-color .3s, opacity .35s; }
+@keyframes pop { 0%, 100% { transform: translateY(0) rotate(0) scale(1); } 50% { transform: translateY(-9px) rotate(-7deg) scale(1.14); } }
+
+/* marquee: two coloured logo rows travelling in opposite directions */
+.marq { display: grid; gap: 14px; margin-top: 38px; overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
+.marq-row { display: flex; gap: 14px; width: max-content; animation: marquee 38s linear infinite; }
+.marq-row.rev { animation-direction: reverse; animation-duration: 44s; }
+.marq:hover .marq-row { animation-play-state: paused; }
+.mi { display: inline-flex; align-items: center; gap: 10px; padding: 8px 18px 8px 10px; border-radius: 99px; background: var(--surface); border: 1px solid var(--line); font-size: 13px; transition: border-color .25s, background .25s; }
+.mi img { width: 28px; height: 28px; padding: 4px; object-fit: contain; border-radius: 8px; background: #f1f5f9; }
+.mi b { font-weight: 500; color: var(--text); }
+.mi:hover { border-color: var(--b); background: var(--accent-soft); box-shadow: 0 8px 24px -12px var(--b); }
+.mi:hover img { animation: bob .7s ease-in-out infinite; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+/* hover: icon floats up and down */
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }

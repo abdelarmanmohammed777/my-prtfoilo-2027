@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Soup Project", "desc": "A modern responsive frontend app focused on structured layout and a clean, interactive user experience.", "stack": ["HTML", "CSS", "JavaScript"], "github": "https://github.com/abdelarmanmohammed777/soup-" },
+  { "id": 2, "title": "Skilline Project", "desc": "Mobile-first UI components, modern CSS styling and DOM manipulation for an engaging experience.", "stack": ["HTML", "CSS", "JavaScript"], "github": "https://github.com/abdelarmanmohammed777/skyline-project" },
+  { "id": 3, "title": "This Portfolio", "desc": "React frontend + Node.js REST backend with a live playground, command palette and contact API.", "stack": ["React", "Node.js", "REST API"], "github": "https://github.com/abdelarmanmohammed777" }
+]

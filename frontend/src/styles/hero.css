@@ -1,0 +1,28 @@
+/* ==========================================================================
+   5. HERO — intro, terminal card, stats, tech logo row
+   ========================================================================== */
+.hero { min-height: 100vh; display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; padding-top: 120px; }
+.hero h1 { font-size: clamp(42px, 7vw, 76px); line-height: 1.04; letter-spacing: -.035em; margin: 18px 0 14px; }
+.name { color: var(--accent); }
+.role { min-height: 1.7em; font-size: clamp(17px, 2.3vw, 24px); color: var(--muted); }
+.role em { color: var(--accent); font-style: normal; }
+.lede { max-width: 520px; margin-top: 14px; color: var(--muted); }
+.where { margin-top: 18px; color: var(--muted); font-size: 14px; }
+
+.term { padding: 0; font-size: 13.5px; background: var(--surface); }
+.term pre { min-height: 270px; padding: 18px; font-family: var(--font-mono); line-height: 1.7; white-space: pre-wrap; overflow: auto; }
+.term .dots .mono { margin-left: 8px; font-size: 12px; color: var(--muted); }
+.k { color: var(--code-kw); } .s { color: var(--code-str); } .f { color: var(--code-key); } .n { color: var(--code-num); }
+
+.stats { max-width: 1120px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.stat { padding: 22px; text-align: center; transition: transform .3s var(--ease), border-color .3s; }
+.stat:hover { transform: translateY(-4px); border-color: var(--accent-line); }
+.stat b { display: block; font: 600 38px var(--font-mono); color: var(--accent); }
+.stat span { font-size: 14px; color: var(--muted); }
+
+.tech-logos { max-width: 1120px; margin: 28px auto 0; padding: 14px 24px; display: flex; align-items: center; justify-content: center; gap: 14px; overflow-x: auto; scrollbar-width: none; }
+.tech-logos::-webkit-scrollbar { display: none; }
+.tech-logo { flex: 0 0 32px; width: 32px; height: 32px; object-fit: contain; transition: transform .3s var(--ease); }
+.tech-logo:hover { animation: bob .7s ease-in-out infinite; }
+
+@media (max-width: 820px) { .hero { grid-template-columns: 1fr; gap: 32px; } .tech-logos { justify-content: flex-start; } }

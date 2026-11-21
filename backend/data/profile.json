@@ -1,0 +1,272 @@
+{
+  "name": "Abdelrahman Mohamed",
+  "title": "Frontend Developer | Full-Stack Developer",
+  "location": "Ismailia, Egypt",
+  "email": "abdelrahmanmohamed90909@gmail.com",
+  "phone": "+201288312230",
+  "whatsapp": "https://wa.me/201288312230",
+  "github": "https://github.com/abdelarmanmohammed777",
+  "linkedin": "https://www.linkedin.com/in/abdulrahman-mohamed-49a972437/",
+  "cv": "docs/Abdelrahman_Mohamed_CV_NoProjectLinks.pdf",
+  "status": "Available for Internships & Junior Roles",
+  "school": "WE Applied Technology School (WE ATS) · Information Technology & Web Development · 2024 – 2026",
+  "roles": [
+    "Frontend Developer",
+    "HTML, CSS & JavaScript",
+    "Bootstrap & Tailwind CSS",
+    "PHP & Laravel Developer",
+    "React & Node.js",
+    "Python",
+    "MySQL & SQLite",
+    "VS Code"
+  ],
+  "core": [
+    {
+      "name": "HTML / CSS",
+      "icon": "HC",
+      "color": "#38bdf8",
+      "text": "Semantic HTML and responsive layouts with modern CSS."
+    },
+    {
+      "name": "JavaScript",
+      "icon": "JS",
+      "color": "#facc15",
+      "text": "DOM interaction, ES6+ fundamentals and browser-side logic."
+    },
+    {
+      "name": "CSS",
+      "icon": "CS",
+      "color": "#1572b6",
+      "text": "Modern layouts, animations and responsive styling."
+    },
+    {
+      "name": "Bootstrap / Tailwind",
+      "icon": "UI",
+      "color": "#a78bfa",
+      "text": "Responsive UI building with utility classes and components."
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "TW",
+      "color": "#06b6d4",
+      "text": "Utility-first responsive UI development."
+    },
+    {
+      "name": "PHP / Laravel",
+      "icon": "PL",
+      "color": "#fb7185",
+      "text": "Backend fundamentals, MVC, Eloquent and REST APIs."
+    },
+    {
+      "name": "Laravel",
+      "icon": "LA",
+      "color": "#ff2d20",
+      "text": "PHP framework for structured backend applications."
+    },
+    {
+      "name": "React",
+      "icon": "RE",
+      "color": "#61dafb",
+      "text": "Component-based interfaces and reusable UI patterns."
+    },
+    {
+      "name": "Node.js",
+      "icon": "NO",
+      "color": "#68a063",
+      "text": "Server-side JavaScript and REST API development."
+    },
+    {
+      "name": "Python",
+      "icon": "PY",
+      "color": "#3776ab",
+      "text": "Programming fundamentals, automation and backend logic."
+    },
+    {
+      "name": "MySQL",
+      "icon": "MY",
+      "color": "#4479a1",
+      "text": "Relational database design, queries and SQL."
+    },
+    {
+      "name": "SQLite",
+      "icon": "SQ",
+      "color": "#003b57",
+      "text": "Lightweight relational database for local applications."
+    },
+    {
+      "name": "VS Code",
+      "icon": "VS",
+      "color": "#007acc",
+      "text": "Primary code editor and development environment."
+    },
+    {
+      "name": "PyCharm",
+      "icon": "PY",
+      "color": "#21d789",
+      "text": "Python IDE for development and debugging."
+    }
+  ],
+  "roadmap": [
+    {
+      "year": "2024",
+      "title": "Frontend Foundation",
+      "text": "HTML5, CSS3, JavaScript ES6+, Bootstrap, Flexbox, CSS Grid, DOM manipulation."
+    },
+    {
+      "year": "2025",
+      "title": "CS & Data Fundamentals",
+      "text": "Python, OOP, data structures, algorithms, relational databases & SQL."
+    },
+    {
+      "year": "2026",
+      "title": "Going Full Stack",
+      "text": "Laravel, Node.js, React and RESTful API integration — in progress."
+    }
+  ],
+  "stack": [
+    {
+      "title": "Frontend",
+      "icon": "01",
+      "text": "Responsive, modern and interactive interfaces.",
+      "items": [
+        [
+          "HTML5",
+          "html5"
+        ],
+        [
+          "CSS3",
+          "css3"
+        ],
+        [
+          "JavaScript",
+          "javascript"
+        ],
+        [
+          "Bootstrap",
+          "bootstrap"
+        ],
+        [
+          "React",
+          "react"
+        ],
+        [
+          "Tailwind CSS",
+          "tailwindcss"
+        ]
+      ]
+    },
+    {
+      "title": "Backend",
+      "icon": "02",
+      "text": "Server-side logic, APIs and business rules.",
+      "items": [
+        [
+          "PHP",
+          "php"
+        ],
+        [
+          "Laravel",
+          "laravel"
+        ],
+        [
+          "Node.js",
+          "nodejs"
+        ],
+        [
+          "Python",
+          "python"
+        ]
+      ]
+    },
+    {
+      "title": "Database",
+      "icon": "03",
+      "text": "Relational data, queries and schema design.",
+      "items": [
+        [
+          "MySQL / SQL",
+          "mysql"
+        ],
+        [
+          "SQLite",
+          "sqlite"
+        ]
+      ]
+    },
+    {
+      "title": "Tools & Workflow",
+      "icon": "04",
+      "text": "Version control and everyday dev environment.",
+      "items": [
+        [
+          "Git",
+          "git"
+        ],
+        [
+          "GitHub",
+          "github"
+        ],
+        [
+          "VS Code",
+          "vscode"
+        ],
+        [
+          "PyCharm",
+          "pycharm"
+        ]
+      ]
+    }
+  ],
+  "concepts": [
+    "OOP",
+    "Data Structures",
+    "Algorithms",
+    "RESTful APIs",
+    "Responsive Design",
+    "MVC"
+  ],
+  "softSkills": [
+    {
+      "icon": "puzzle",
+      "title": "Problem Solving",
+      "text": "Strong analytical thinking: breaking complex problems down and debugging code efficiently."
+    },
+    {
+      "icon": "users",
+      "title": "Communication & Teamwork",
+      "text": "Effective collaboration in technical teams and school group projects."
+    },
+    {
+      "icon": "trend",
+      "title": "Continuous Learning",
+      "text": "Self-motivated and adaptable, always keeping up with modern tech roadmaps and tools."
+    },
+    {
+      "icon": "book",
+      "title": "Self-Directed Learning",
+      "text": "Independently researching and mastering new technologies, then applying them to real projects."
+    }
+  ],
+  "interests": [
+    {
+      "icon": "code",
+      "title": "Building interfaces",
+      "text": "Turning ideas into clean, responsive web projects."
+    },
+    {
+      "icon": "chart",
+      "title": "Data & Python",
+      "text": "Exploring data analytics through hands-on Python courses."
+    },
+    {
+      "icon": "ai",
+      "title": "Exploring AI",
+      "text": "Curious about modern AI and how to prompt it well."
+    },
+    {
+      "icon": "git",
+      "title": "Shipping on GitHub",
+      "text": "Publishing projects and learning in public, one commit at a time."
+    }
+  ]
+}
